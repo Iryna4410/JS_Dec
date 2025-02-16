@@ -1,3 +1,4 @@
+`use strict;`
 let k = 'hello';
 let h = 'owu';
 let g = 'com';
