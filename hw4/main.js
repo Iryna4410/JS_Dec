@@ -95,17 +95,38 @@ f4([
     {id:3,name:'misha', age:28}
 ])
 
-// - створити функцію яка повертає найменьше число з масиву
-// function minNumb(arrNumb){
-//     for (const numbElement of arrNumb) {
-//         if (){}
-//
-//     }
-// }
-// minNumb([1,6,8,0,9,10]);
+// - створити функцію яка повертає найменше число з масиву
+
+function minNumb(arrNumb){
+    let min=arrNumb[0];
+    for (const numbElement of arrNumb) {
+        if (min>numbElement){
+          min = numbElement;
+        }}
+
+return min;
+}
+console.log(minNumb([ -1,6, 8, 10, 9, 100]));
 
 
 // - створити функцію sum(arr) яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 function sum(arr){
-    return
+    let sumNumb=0;
+    for (const arrElement of arr) {
+      sumNumb+=arrElement;
+    }
+    return sumNumb;
+}
+
+console.log(sum([1, 2, 10]));
+
+// створити функцію swap(arr,index1,index2). Функція міняє місцями значення у відповідних індексах
+// Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
+function swap(arr,index1,index2) {
+    for (const arrElement of arr) {
+        if (index1==index2){
+
+        }
+    }
+
 }
